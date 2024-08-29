@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classe\GeradorDePalavras.cs" />
     <Compile Include="Classe\Jogo.cs" />
     <Compile Include="Classe\JogoDaForca.cs" />
     <Compile Include="Classe\JogoTerminadoException.cs" />

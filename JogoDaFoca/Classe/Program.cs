@@ -10,7 +10,8 @@ namespace JogoDaFoca.Classe
     {
         static void Main (string[] args)
         {
-            string palavraSecreta = "programcao";
+
+            string palavraSecreta = GeradorDePalavras.GerarPalavraAleatoria();
             JogoDaForca jogo = new JogoDaForca(palavraSecreta);
 
             jogo.IniciarJogo();
